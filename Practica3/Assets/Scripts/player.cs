@@ -10,7 +10,7 @@ public class player : MonoBehaviour
     [Range(1, 1000)] public float jumpforce;
     private bool Grounded;
     private Animator animator;
-    public float Range 10;
+    //public float Range 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -24,24 +24,24 @@ public class player : MonoBehaviour
     {
         rend = GetComponent<SpriteRenderer>();
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        Debug.DrawRay(transform.position, Vector3.down * Range, Color.blue);
-        RaycastHit hit;
-        if (Physics2D.Raycast(transform.position, Vector3.down, out hit, Range))
-        {
-            if (hit.collider.Comparetag("Tilemap"))
-            {
-                Debug.Log("Hit");
-            }
-        }
+        Debug.DrawRay(transform.position, Vector3.down * 0.62f, Color.blue);
+      //  RaycastHit hit;
+        if (Physics2D.Raycast(Vector3.down, Vector3.down, 0.62f))
+        //{
+       //     if (hit.collider.Comparetag("Tilemap"))
+     //       {
+     //           Debug.Log("Hit");
+     //       }
+      //  }
         {
             Grounded = true;
         }
         else Grounded = false;
         
-        if (Input.GetKeyDown(KeyCode.Space) && Grounded)
-       {
-            Jump();
-       }
+     //   if (Input.GetKeyDown(KeyCode.Space) && Grounded)
+    //   {
+   //         Jump();
+  //     }
         //  if (Input.GetKeyDown(KeyCode.A))
         //  {
         //     animator.Play("walk");
@@ -67,18 +67,18 @@ public class player : MonoBehaviour
     {
         ProcessMovement();
 
-       // if (Input.GetButton("Jump") && Grounded)
-     //   {
-       //     Jump();
-                // rb.AddForce(Vector2.up * jumpforce);
+        if (Input.GetButton("Jump") && Grounded)
+        {
+      //      Jump();
+                 rb.AddForce(Vector2.up * jumpforce);
             //    isJumping = true;
-    //    }
+        }
     }
-     void Jump()
-    {
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        rb.AddForce(Vector2.up * jumpforce);
-   }
+   //  void Jump()
+  //  {
+   //     Rigidbody2D rb = GetComponent<Rigidbody2D>();
+   //     rb.AddForce(Vector2.up * jumpforce);
+  // }
   //  bool Grounded() {
 
   //     if (Physics2D.RayCast(other.gameObject.compareTag("Tilemap"))) { 
