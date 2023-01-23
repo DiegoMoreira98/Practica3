@@ -8,6 +8,7 @@ TagManager:
   - Tilemap
   - EnemyFlip
   - Enemy
+  - Deathzone
   layers:
   - Default
   - TransparentFX

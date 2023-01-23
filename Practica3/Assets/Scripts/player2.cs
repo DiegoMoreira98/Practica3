@@ -11,7 +11,6 @@ public class player2 : MonoBehaviour
     [Range(1, 500)] public float jumpforce;
     bool isJumping = false;
     private Animator animator;
-    public GameObject gameObject;
     // Start is called before the first frame update
     void Start()
     {
@@ -65,6 +64,14 @@ public class player2 : MonoBehaviour
         if (other.gameObject.CompareTag("Enemy"))
         {
             Destroy(gameObject);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if (collision.CompareTag("Deathzone"))
+        {
+            SceneManager.LoadScene("SampleScene");
         }
     }
 }
