@@ -9,6 +9,7 @@ TagManager:
   - EnemyFlip
   - Enemy
   - Deathzone
+  - Headshot
   layers:
   - Default
   - TransparentFX

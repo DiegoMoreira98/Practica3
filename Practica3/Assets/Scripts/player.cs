@@ -1,16 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class player : MonoBehaviour
 {
     public float velocity = 10f;
     private Rigidbody2D rb;
     private SpriteRenderer rend;
-    [Range(1, 1000)] public float jumpforce;
-    private bool Grounded;
+    [Range(1, 500)] public float jumpforce;
+    bool isJumping = false;
     private Animator animator;
-    //public float Range 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,35 +23,21 @@ public class player : MonoBehaviour
     void Update()
     {
         rend = GetComponent<SpriteRenderer>();
-        Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        Debug.DrawRay(transform.position, Vector3.down * 0.62f, Color.blue);
-      //  RaycastHit hit;
-        if (Physics2D.Raycast(Vector3.down, Vector3.down, 0.62f))
-        //{
-       //     if (hit.collider.Comparetag("Tilemap"))
-     //       {
-     //           Debug.Log("Hit");
-     //       }
-      //  }
+        ProcessMovement();
+
+        if (Input.GetButton("Jump") && !isJumping)
         {
-            Grounded = true;
+            //animator.Play("jump");
+            rb.AddForce(Vector2.up * jumpforce);
+            isJumping = true;      
         }
-        else Grounded = false;
-        
-     //   if (Input.GetKeyDown(KeyCode.Space) && Grounded)
-    //   {
-   //         Jump();
-  //     }
-        //  if (Input.GetKeyDown(KeyCode.A))
-        //  {
-        //     animator.Play("walk");
-        //  }
     }
     void ProcessMovement()
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         float movhor = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(movhor * velocity, rb.velocity.y);
+
         if (movhor > 0)
         {
             animator.Play("walk");
@@ -59,42 +45,38 @@ public class player : MonoBehaviour
         }
         else if (movhor < 0)
         {
-            animator.Play("idle");
+            animator.Play("walk");
             rend.flipX = true;
         }
     }
     void FixedUpdate()
     {
-        ProcessMovement();
-
-        if (Input.GetButton("Jump") && Grounded)
+        if (isJumping == true)
         {
-      //      Jump();
-                 rb.AddForce(Vector2.up * jumpforce);
-            //    isJumping = true;
+            animator.Play("jump");
         }
     }
-   //  void Jump()
-  //  {
-   //     Rigidbody2D rb = GetComponent<Rigidbody2D>();
-   //     rb.AddForce(Vector2.up * jumpforce);
-  // }
-  //  bool Grounded() {
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Tilemap"))
+        {
+            isJumping = false;
+            rb.velocity = new Vector2(rb.velocity.x, 0);
+        }
+    }
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
 
-  //     if (Physics2D.RayCast(other.gameObject.compareTag("Tilemap"))) { 
-  //      return true;
- //   }
- //       else {
- //        return false;
-  //  }
-  //  }
-
-    //private void OnCollisionStay2D(Collision2D other)
-   // {
-      //  if (other.gameObject.CompareTag("Tilemap"))
-   //     {
-     //       isJumping = false;
-     //       rb.velocity = new Vector2(rb.velocity.x, 0);
-   //     }
-   // }
- }
+        if (collision.CompareTag("Deathzone"))
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
+    }
+}
