@@ -12,6 +12,7 @@ TagManager:
   - Headshot
   - enemies
   - playerfoot
+  - Levelcompleted
   layers:
   - Default
   - TransparentFX

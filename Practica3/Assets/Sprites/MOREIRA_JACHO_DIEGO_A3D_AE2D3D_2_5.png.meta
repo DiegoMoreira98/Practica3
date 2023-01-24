@@ -1,0 +1,872 @@
+fileFormatVersion: 2
+guid: 175d74b77cd91f947951f9d6369a8cf3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_0
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc4e79da6fbd054fa04600900badac8
+      internalID: -930604753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04da43cee5b13294f953dd55fef30d5a
+      internalID: -1141916374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f282a51afac9764fa05d453628a326c
+      internalID: -356851198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_3
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe609715aebdbe4c8437bccac700912
+      internalID: -1855170127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_4
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739239c9ab7b3eb4e946ad3c61677809
+      internalID: 714477137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_5
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 512
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfc84547f8428645840719eaab70fb6
+      internalID: 969847291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_6
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 447
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba335cd316759a14b80761016fe6524e
+      internalID: -563382737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_7
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 447
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8023b7a458c3674c84d2d4dbc2ac4ae
+      internalID: -199481552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_8
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 447
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c98fbf223bf04e4d9b5dd03e0cfe7ed
+      internalID: -835034887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f58bb0ddb307f4985c4e6c28204a8d
+      internalID: 1095606148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_10
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa1ac8b6365883458f12d23b87063e9
+      internalID: -1904737560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_11
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 384
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411b38584bde38f4aa599bb3826a5305
+      internalID: 1637557690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c8c52bc7e90b442844be2f1595084b
+      internalID: -1536666108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_13
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c094714e18e8c49883757e0e188273
+      internalID: -1165862947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_14
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 382
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c09fb1b66f7614ba86f90c835c0cbc
+      internalID: -1125842436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_15
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 270
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa9f6b8324fdc146902e659f422ddd4
+      internalID: 1252719939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_16
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 270
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 254de8d8bb582be4187b3f13baca0d13
+      internalID: -520274169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_17
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 268
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcd8ebb497a71548873c3b362705822
+      internalID: 689734309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_18
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 268
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9a2e3ad07c700e4ab78e8fdc8f43bab
+      internalID: -442077960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70ac517d7eefce43bbcbeb163afb154
+      internalID: -1028778422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_20
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 087965a40e02baa4e80e00b5d416043b
+      internalID: -1483921701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_21
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 256
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e48a91ada03b748b6ec5b784c9cb8c
+      internalID: -1982734783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_22
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 200
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4027079df3c7f814ab713fe6761a603b
+      internalID: -115373098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 200
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b40323ec42b2c44191b75780a8e808a
+      internalID: 2019963685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_24
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 200
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d28b775eac8e3640910f79ecbc330bf
+      internalID: -171198744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_25
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 200
+        width: 51
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4488d4b3654f3894db3a04b6c6e9d5de
+      internalID: -366160201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 191
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d3f7cc9574df94b85251bdcd2001fa
+      internalID: 1373151603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_27
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 191
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca17134e35e07664e9049a9ae4dddd68
+      internalID: 1652704471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_28
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 191
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56634c1f8fa8242408a41b8081007eda
+      internalID: -561521063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_29
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 137
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37394e45615165b41b2f1642e704b8b8
+      internalID: -1649370574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 137
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c5a263bf1aa0af4c9ed401143ec17b5
+      internalID: 1884684042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_31
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 137
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e6829ff1e2cf8249b9cde4a48454658
+      internalID: 1420115896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_32
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 138
+        width: 53
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1ccb1c3ec8f6c345a421433a69a9e12
+      internalID: -1862789114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_7: -199481552
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_9: 1095606148
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_11: 1637557690
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_27: 1652704471
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_24: -171198744
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_31: 1420115896
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_18: -442077960
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_1: -1141916374
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_13: -1165862947
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_15: 1252719939
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_19: -1028778422
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_20: -1483921701
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_8: -835034887
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_29: -1649370574
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_10: -1904737560
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_4: 714477137
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_22: -115373098
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_16: -520274169
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_30: 1884684042
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_14: -1125842436
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_2: -356851198
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_5: 969847291
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_6: -563382737
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_32: -1862789114
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_3: -1855170127
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_28: -561521063
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_25: -366160201
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_12: -1536666108
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_23: 2019963685
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_21: -1982734783
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_0: -930604753
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_26: 1373151603
+      MOREIRA_JACHO_DIEGO_A3D_AE2D3D_2_5_17: 689734309
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
