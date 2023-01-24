@@ -10,6 +10,8 @@ TagManager:
   - Enemy
   - Deathzone
   - Headshot
+  - enemies
+  - playerfoot
   layers:
   - Default
   - TransparentFX

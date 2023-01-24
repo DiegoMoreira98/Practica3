@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class kilenemy : MonoBehaviour
 {
-    public GameObject enemy; 
+    public GameObject enemy;
 
-    private void OnCollisionEnter2D(Collision2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.CompareTag("Player"))
+
+        if (collision.CompareTag("playerfoot"))
         {
             Destroy(enemy);
         }

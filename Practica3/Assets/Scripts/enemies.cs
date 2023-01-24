@@ -17,7 +17,6 @@ public class enemies : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      // rb.velocity = new Vector2(1* velocity, rb.velocity.y);
        transform.position = Vector2.MoveTowards(transform.position, new Vector2(target.position.x, transform.position.y), velocity * Time.deltaTime) ;
 
     }
