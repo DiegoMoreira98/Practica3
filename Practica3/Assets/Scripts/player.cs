@@ -27,7 +27,6 @@ public class player : MonoBehaviour
 
         if (Input.GetButton("Jump") && !isJumping)
         {
-            //animator.Play("jump");
             rb.AddForce(Vector2.up * jumpforce);
             isJumping = true;      
         }
@@ -37,15 +36,14 @@ public class player : MonoBehaviour
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
         float movhor = Input.GetAxisRaw("Horizontal");
         rb.velocity = new Vector2(movhor * velocity, rb.velocity.y);
+        animator.SetBool("walking", movhor != 0.0f);
 
         if (movhor > 0)
         {
-            animator.Play("walk");
             rend.flipX = false;
         }
         else if (movhor < 0)
         {
-            animator.Play("walk");
             rend.flipX = true;
         }
     }
@@ -68,7 +66,7 @@ public class player : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Enemy"))
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene("SampleScene");
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

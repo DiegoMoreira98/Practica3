@@ -7,7 +7,7 @@ public class enemies : MonoBehaviour
     public float velocity;
     private Rigidbody2D rb;
     private SpriteRenderer rend;
-    public GameObject target;
+    public Transform target;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +17,8 @@ public class enemies : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       rb.velocity = new Vector2(1* velocity, rb.velocity.y);
-       transform.position = Vector2.MoveTowards(transform.position, target.transform.position, velocity * Time.deltaTime);
+      // rb.velocity = new Vector2(1* velocity, rb.velocity.y);
+       transform.position = Vector2.MoveTowards(transform.position, new Vector2(target.position.x, transform.position.y), velocity * Time.deltaTime) ;
 
     }
     private void OnCollisionEnter2D(Collision2D other)

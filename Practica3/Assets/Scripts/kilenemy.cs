@@ -4,23 +4,13 @@ using UnityEngine;
 
 public class kilenemy : MonoBehaviour
 {
-    public GameObject gameObject;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject enemy; 
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(gameObject);
+            Destroy(enemy);
         }
     }
 }
