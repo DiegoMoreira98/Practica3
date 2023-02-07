@@ -16,10 +16,14 @@ public class buttonfunctions : MonoBehaviour
     {
         
     }
-    private void SceneLoader(string name)
+    public void ChangeScene(string name)
     {
-        // SceneManager.LoadScene(name);
+        SceneManager.LoadScene(name);
         GameManager.instance.AddPunt(20);
         Debug.Log(GameManager.instance.GetPunt());
+    }
+    public void ExitGame()
+    {
+        Application.Quit();
     }
 }

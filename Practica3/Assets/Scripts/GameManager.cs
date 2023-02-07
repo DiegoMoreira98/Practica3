@@ -5,7 +5,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    public int puntuacion = 0;
+    public int points = 0;
     public float time = 0;
     // Start is called before the first frame update
     void Awake()
@@ -28,14 +28,14 @@ public class GameManager : MonoBehaviour
     }
     public void AddPunt(int value)
     {
-        puntuacion += value;
+        points += value;
     }
     public int GetPunt()
     {
-        return puntuacion;
+        return points;
     }
-    public float GetTime()
+    public string GetTime()
     {
-        return time;
+        return time.ToString("F2");
     }
 }
