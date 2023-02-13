@@ -98,7 +98,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d4a2c1401fdda734f9189b44093ede9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
+  enemy: {fileID: 6362211146405657098}
+  enemykillclip: {fileID: 8300000, guid: 92af13c686530004d8155757d251cac2, type: 3}
 --- !u!61 &6362211146062047186
 BoxCollider2D:
   m_ObjectHideFlags: 0

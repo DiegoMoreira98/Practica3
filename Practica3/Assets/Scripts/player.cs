@@ -11,6 +11,8 @@ public class player : MonoBehaviour
     [Range(1, 500)] public float jumpforce;
     bool isJumping = false;
     private Animator animator;
+    public AudioClip jumpclip;
+    public AudioClip deathclip;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,8 +29,10 @@ public class player : MonoBehaviour
 
         if (Input.GetButton("Jump") && !isJumping)
         {
+            AudioManager.instance.PlayAudio(jumpclip, 1);
             rb.AddForce(Vector2.up * jumpforce);
-            isJumping = true;      
+            isJumping = true;
+
         }
     }
     void ProcessMovement()
@@ -66,7 +70,8 @@ public class player : MonoBehaviour
     {
         if (other.gameObject.CompareTag("enemies"))
         {
-            SceneManager.LoadScene("SampleScene");
+            AudioManager.instance.PlayAudio(deathclip, 1);
+            Invoke("death", 3);
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -74,7 +79,12 @@ public class player : MonoBehaviour
 
         if (collision.CompareTag("Deathzone"))
         {
-            SceneManager.LoadScene("SampleScene");
+            AudioManager.instance.PlayAudio(deathclip, 1);
+            Invoke("death", 2);
         }
+    }
+    public void death()
+    {
+        SceneManager.LoadScene("SampleScene");
     }
 }

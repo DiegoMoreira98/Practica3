@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
     public int points = 0;
     public float time = 0;
+    public AudioClip background;
     // Start is called before the first frame update
     void Awake()
     {
@@ -14,10 +15,12 @@ public class GameManager : MonoBehaviour
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
+            AudioManager.instance.PlayAudioOnLoop(background, 1);
         }
         else
         {
             Destroy(gameObject);
+
         }
     }
 
