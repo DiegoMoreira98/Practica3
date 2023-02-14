@@ -2,18 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class puntcounter : MonoBehaviour
+public class mainmenucontroller : MonoBehaviour
 {
-    public TMPro.TMP_Text textpointsText;
+    private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        textpointsText.text = ":" + GameManager.instance.GetPunt();
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            animator.Play("horizontal movement menu");
+        }
+
+
     }
 }

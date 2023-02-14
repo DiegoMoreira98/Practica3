@@ -65,14 +65,4 @@ public class AudioManager : MonoBehaviour
             Destroy(source.gameObject);
         }
     }
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

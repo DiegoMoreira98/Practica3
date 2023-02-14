@@ -17,12 +17,12 @@ public class enemies : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       transform.position = Vector2.MoveTowards(transform.position, new Vector2(target.position.x, transform.position.y), velocity * Time.deltaTime) ;
+       transform.position = Vector2.MoveTowards(transform.position, new Vector2(target.position.x, transform.position.y), velocity * Time.deltaTime); //realiza el movimiento horizontal del enemigo haciendo que siga al player.
 
     }
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("EnemyFlip"))
+        if (other.gameObject.CompareTag("EnemyFlip")) //Si el enemigo choca con una pared designada para su giro realizara un giro en X.
         {
             rend.flipX = true;
             velocity *= -1;

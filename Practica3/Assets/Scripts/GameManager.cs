@@ -10,14 +10,14 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-       if (!instance) //instance  != null 
+       if (!instance) //instance  != null  //Detecta que no haya otro GameManager en la escena.
         {
             instance = this;
             DontDestroyOnLoad(gameObject);
         }
         else
         {
-            Destroy(gameObject);
+            Destroy(gameObject); //Si hay otro GameManager lo destruye.
         }
     }
 
@@ -26,11 +26,15 @@ public class GameManager : MonoBehaviour
     {
 
     }
-    public void AddPunt(int value)
+    public void AddPunt(int value) //Agrega la cantidad de puntos designada.
     {
         points += value;
     }
-    public int GetPunt()
+    public void ResetPunt(int value) //Resetea la cantidad de puntos.
+    {
+        points  *= value;
+    }
+    public int GetPunt() //Recibe los puntos.
     {
         return points;
     }
