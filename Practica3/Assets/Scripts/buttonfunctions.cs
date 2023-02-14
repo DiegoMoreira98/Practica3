@@ -8,7 +8,7 @@ public class buttonfunctions : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -16,11 +16,18 @@ public class buttonfunctions : MonoBehaviour
     {
         
     }
+    public void PauseTimer()
+    {
+        Time.timeScale = 0;
+    }
+    public void StartTimer()
+    {
+        Time.timeScale = 1;
+    }
     public void ChangeScene(string name)
     {
         SceneManager.LoadScene(name);
-        GameManager.instance.AddPunt(20);
-        Debug.Log(GameManager.instance.GetPunt());
+        AudioManager.instance.ClearAudioList();
     }
     public void ExitGame()
     {

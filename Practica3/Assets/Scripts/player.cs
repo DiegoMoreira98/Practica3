@@ -13,12 +13,14 @@ public class player : MonoBehaviour
     private Animator animator;
     public AudioClip jumpclip;
     public AudioClip deathclip;
+    public AudioClip background;
     // Start is called before the first frame update
     void Start()
     {
         rend = GetComponent<SpriteRenderer>();
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        AudioManager.instance.PlayAudioOnLoop(background, 1);
     }
 
     // Update is called once per frame
@@ -29,9 +31,9 @@ public class player : MonoBehaviour
 
         if (Input.GetButton("Jump") && !isJumping)
         {
-            AudioManager.instance.PlayAudio(jumpclip, 1);
             rb.AddForce(Vector2.up * jumpforce);
             isJumping = true;
+            AudioManager.instance.PlayAudio(jumpclip, 1);
 
         }
     }
@@ -85,6 +87,8 @@ public class player : MonoBehaviour
     }
     public void death()
     {
-        SceneManager.LoadScene("SampleScene");
+        AudioManager.instance.ClearAudioList();
+        Invoke("ResetTimer", 0.1f);
+        SceneManager.LoadScene("Level1");
     }
 }

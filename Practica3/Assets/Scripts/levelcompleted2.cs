@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class levelcompleted2 : MonoBehaviour
 {
+    public AudioClip winnerclip;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,14 @@ public class levelcompleted2 : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene("SampleScene3");
+            AudioManager.instance.PlayAudio(winnerclip, 2);
+            Invoke("change", 3f);
         }
+    }
+
+    public void change()
+    {
+
+        SceneManager.LoadScene("Level3");
     }
 }

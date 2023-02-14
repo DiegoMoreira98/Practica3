@@ -22,13 +22,14 @@ public class levelcompleted : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             AudioManager.instance.PlayAudio(winnerclip, 2);
-            Invoke("change",3f);
+            Invoke("change",2f);
         }
     }
 
     public void change()
     {
 
-            SceneManager.LoadScene("SampleScene2");
+           SceneManager.LoadScene("Level2");
+           AudioManager.instance.ClearAudioList();
     }
 }

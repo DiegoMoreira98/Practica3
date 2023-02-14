@@ -12,6 +12,7 @@ public class kilenemy : MonoBehaviour
 
         if (collision.CompareTag("playerfoot"))
         {
+            GameManager.instance.AddPunt(10);
             AudioManager.instance.PlayAudio(enemykillclip, 1);
             Destroy(enemy);
         }
